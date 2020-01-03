@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-02T14:15:34.608Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="m8yNvWameFYxpFqGxxvY" version="12.4.8" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-01-03T03:03:37.271Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="h7f9mIe6I0V6Ghhsvt58" version="12.4.8" type="github" pages="2">
   <diagram id="86Uga7-Gd4g3QrR7SwTo" name="Page-1">
     <mxGraphModel dx="3083" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -13,10 +13,10 @@
         <mxCell id="ge_ubduK_eUvUoq6MuhH-7" value="室内算路" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="250" width="120" height="160" as="geometry"/>
         </mxCell>
-        <mxCell id="ge_ubduK_eUvUoq6MuhH-9" value="引擎层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="84" y="210" width="40" height="20" as="geometry"/>
+        <mxCell id="ge_ubduK_eUvUoq6MuhH-9" value="跨平台层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="84" y="210" width="66" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="jLUdKfTGCnAxgIvCnTzw-3" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="jLUdKfTGCnAxgIvCnTzw-3" value="" style="group;strokeColor=#000000;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="410" y="250" width="550" height="160" as="geometry"/>
         </mxCell>
         <mxCell id="ge_ubduK_eUvUoq6MuhH-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="jLUdKfTGCnAxgIvCnTzw-3" vertex="1">
@@ -26,13 +26,16 @@
           <mxGeometry x="10" y="10" width="60" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="ge_ubduK_eUvUoq6MuhH-3" value="AR 步导业务层" style="rounded=0;whiteSpace=wrap;html=1;" parent="jLUdKfTGCnAxgIvCnTzw-3" vertex="1">
-          <mxGeometry x="70" y="10" width="460" height="50" as="geometry"/>
+          <mxGeometry x="70" y="10" width="460" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ge_ubduK_eUvUoq6MuhH-4" value="渲染引擎" style="rounded=0;whiteSpace=wrap;html=1;" parent="jLUdKfTGCnAxgIvCnTzw-3" vertex="1">
-          <mxGeometry x="30" y="80" width="240" height="60" as="geometry"/>
+        <mxCell id="ge_ubduK_eUvUoq6MuhH-4" value="渲染引擎(OpenGL/Metal)" style="rounded=0;whiteSpace=wrap;html=1;" parent="jLUdKfTGCnAxgIvCnTzw-3" vertex="1">
+          <mxGeometry x="30" y="100" width="240" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ge_ubduK_eUvUoq6MuhH-5" value="AR Core" style="rounded=0;whiteSpace=wrap;html=1;" parent="jLUdKfTGCnAxgIvCnTzw-3" vertex="1">
-          <mxGeometry x="290" y="80" width="240" height="60" as="geometry"/>
+        <mxCell id="ge_ubduK_eUvUoq6MuhH-5" value="AR Core/AR Kit" style="rounded=0;whiteSpace=wrap;html=1;" parent="jLUdKfTGCnAxgIvCnTzw-3" vertex="1">
+          <mxGeometry x="290" y="100" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="jLUdKfTGCnAxgIvCnTzw-61" value="平台特性隔离层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jLUdKfTGCnAxgIvCnTzw-3">
+          <mxGeometry x="30" y="60" width="500" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="jLUdKfTGCnAxgIvCnTzw-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;arcSize=9;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="80" y="490" width="930" height="250" as="geometry"/>
@@ -52,7 +55,7 @@
         <mxCell id="jLUdKfTGCnAxgIvCnTzw-17" value="仿真数据上/下载服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="630" width="260" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="jLUdKfTGCnAxgIvCnTzw-19" value="云控平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jLUdKfTGCnAxgIvCnTzw-19" value="云控平台策略更新服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="630" width="260" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="jLUdKfTGCnAxgIvCnTzw-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;arcSize=8;strokeColor=#d6b656;" vertex="1" parent="1">
