@@ -1,1 +1,118 @@
-<mxfile host="www.draw.io" modified="2020-02-13T06:03:07.061Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" version="12.6.8" etag="DqMoFZSlddq8Y9RICjfM" type="github"><diagram id="gPn4T5LWa-5Pv8imsY5v">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-13T07:39:01.721Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="24laxm_XBrhdnhCbwv8l" version="12.6.8" type="github">
+  <diagram id="gPn4T5LWa-5Pv8imsY5v" name="Page-1">
+    <mxGraphModel dx="2355" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="HenfjSH_k8gea2s9kb1--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--1" target="HenfjSH_k8gea2s9kb1--3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--1" value="进入多方案页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="60" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--3" target="HenfjSH_k8gea2s9kb1--7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--3" value="遍历每条方案提取首条地铁线路 id 、起点 id、终点 id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--2" target="HenfjSH_k8gea2s9kb1--5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--2" value="进入方案详情页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="60" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--5" target="HenfjSH_k8gea2s9kb1--7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--5" value="遍历每条分段路线提取所有地铁线路的线路 id、起点 id、终点 id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--7" target="HenfjSH_k8gea2s9kb1--10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--7" value="请求后端批量查询舒适度信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="650" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--20" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="HenfjSH_k8gea2s9kb1--13">
+          <mxGeometry x="-0.225" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--10" target="HenfjSH_k8gea2s9kb1--21">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--23" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="HenfjSH_k8gea2s9kb1--22">
+          <mxGeometry x="-0.325" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--10" value="查询是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="490" width="130" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--21" target="HenfjSH_k8gea2s9kb1--27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="650" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--26" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="HenfjSH_k8gea2s9kb1--25">
+          <mxGeometry x="-0.4" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--21" target="HenfjSH_k8gea2s9kb1--31">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--21" value="是否首次查询" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="490" width="130" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--31" target="HenfjSH_k8gea2s9kb1--39">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--34" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="HenfjSH_k8gea2s9kb1--33">
+          <mxGeometry x="-0.7286" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="19" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--37" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--31" target="HenfjSH_k8gea2s9kb1--35">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--31" value="是否达到重试次数限制" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="490" width="130" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--15" target="HenfjSH_k8gea2s9kb1--16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--15" value="通知上层 UI展示舒适度信息&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="650" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--16" target="HenfjSH_k8gea2s9kb1--7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--16" value="开启轮询，间隔1分钟" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="650" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--27" value="结束&lt;br&gt;隐藏 UI" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--35" target="HenfjSH_k8gea2s9kb1--7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--35" value="等待下次轮询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="350" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--39" target="HenfjSH_k8gea2s9kb1--27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--39" value="停止轮询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="650" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
