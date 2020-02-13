@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-13T09:18:32.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="iKVfcDSWI_S5QCMBwNKE" version="12.6.8" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-13T09:57:21.020Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="q67Foy5ERNVppjAffmoE" version="12.6.8" type="github" pages="2">
   <diagram id="gPn4T5LWa-5Pv8imsY5v" name="Page-1">
     <mxGraphModel dx="2355" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -190,10 +190,25 @@
         <mxCell id="lyixq1YqF4zrJ6rr9x3J-0"/>
         <mxCell id="lyixq1YqF4zrJ6rr9x3J-1" parent="lyixq1YqF4zrJ6rr9x3J-0"/>
         <mxCell id="lyixq1YqF4zrJ6rr9x3J-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SubwayComfortInfo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SubwayID: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ StartID: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ DestID: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ ComfortLevel: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;glass=0;" vertex="1" parent="lyixq1YqF4zrJ6rr9x3J-1">
-          <mxGeometry x="260" y="290" width="150" height="100" as="geometry"/>
+          <mxGeometry x="200" y="275" width="150" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="lyixq1YqF4zrJ6rr9x3J-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;SubwayComfortInfoListener&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ onSubwayComfortInfoUpdate(List&amp;lt;SubwayComfortInfo&amp;gt;, int): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;glass=0;" vertex="1" parent="lyixq1YqF4zrJ6rr9x3J-1">
-          <mxGeometry x="440" y="300" width="370" height="70" as="geometry"/>
+          <mxGeometry x="465" y="290" width="370" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="9kqElNw9tE7CUsgn2Iay-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SubwayComfortManager&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- listener: SubwayComfortInfoListener&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ startMonitoring(List&amp;lt;SubwayComfortInfo&amp;gt;, SubwayComfortInfoListener): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ stopMonitoring(): void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;glass=0;" vertex="1" parent="lyixq1YqF4zrJ6rr9x3J-1">
+          <mxGeometry x="430" y="90" width="440" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="9kqElNw9tE7CUsgn2Iay-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lyixq1YqF4zrJ6rr9x3J-1" source="9kqElNw9tE7CUsgn2Iay-0" target="lyixq1YqF4zrJ6rr9x3J-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="450" as="sourcePoint"/>
+            <mxPoint x="710" y="450" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kqElNw9tE7CUsgn2Iay-2" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lyixq1YqF4zrJ6rr9x3J-1" source="lyixq1YqF4zrJ6rr9x3J-14" target="lyixq1YqF4zrJ6rr9x3J-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="470" as="sourcePoint"/>
+            <mxPoint x="480" y="470" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
