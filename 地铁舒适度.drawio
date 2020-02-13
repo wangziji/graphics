@@ -1,33 +1,9 @@
-<mxfile host="www.draw.io" modified="2020-02-13T07:39:01.721Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="24laxm_XBrhdnhCbwv8l" version="12.6.8" type="github">
+<mxfile host="www.draw.io" modified="2020-02-13T09:15:51.639Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="gnqMUueQO4r6bEpeD-2U" version="12.6.8" type="github" pages="2">
   <diagram id="gPn4T5LWa-5Pv8imsY5v" name="Page-1">
-    <mxGraphModel dx="2355" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2355" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="HenfjSH_k8gea2s9kb1--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--1" target="HenfjSH_k8gea2s9kb1--3">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="HenfjSH_k8gea2s9kb1--1" value="进入多方案页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="60" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="HenfjSH_k8gea2s9kb1--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--3" target="HenfjSH_k8gea2s9kb1--7">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="HenfjSH_k8gea2s9kb1--3" value="遍历每条方案提取首条地铁线路 id 、起点 id、终点 id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="200" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="HenfjSH_k8gea2s9kb1--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--2" target="HenfjSH_k8gea2s9kb1--5">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="HenfjSH_k8gea2s9kb1--2" value="进入方案详情页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="60" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="HenfjSH_k8gea2s9kb1--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--5" target="HenfjSH_k8gea2s9kb1--7">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="HenfjSH_k8gea2s9kb1--5" value="遍历每条分段路线提取所有地铁线路的线路 id、起点 id、终点 id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="200" width="120" height="60" as="geometry"/>
-        </mxCell>
         <mxCell id="HenfjSH_k8gea2s9kb1--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HenfjSH_k8gea2s9kb1--7" target="HenfjSH_k8gea2s9kb1--10">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
@@ -111,6 +87,125 @@
         </mxCell>
         <mxCell id="HenfjSH_k8gea2s9kb1--39" value="停止轮询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-70" y="650" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eznupl1_KL1I8H9aw7wR-10" target="HenfjSH_k8gea2s9kb1--7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-14" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="Eznupl1_KL1I8H9aw7wR-13">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eznupl1_KL1I8H9aw7wR-10" target="HenfjSH_k8gea2s9kb1--27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="240"/>
+              <mxPoint x="-100" y="740"/>
+              <mxPoint x="200" y="740"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-17" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="Eznupl1_KL1I8H9aw7wR-16">
+          <mxGeometry x="-0.913" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-10" value="查询列表是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="200" width="130" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="150" y="-320" width="520" height="450" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-2" value="" style="group" vertex="1" connectable="0" parent="Eznupl1_KL1I8H9aw7wR-12">
+          <mxGeometry x="20" width="500" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-1" value="" style="group" vertex="1" connectable="0" parent="Eznupl1_KL1I8H9aw7wR-2">
+          <mxGeometry width="500" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--1" value="进入多方案页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Eznupl1_KL1I8H9aw7wR-1">
+          <mxGeometry width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Eznupl1_KL1I8H9aw7wR-1" source="HenfjSH_k8gea2s9kb1--1" target="HenfjSH_k8gea2s9kb1--3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--2" value="进入方案详情页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Eznupl1_KL1I8H9aw7wR-1">
+          <mxGeometry x="380" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--5" value="遍历每条分段路线提取所有地铁线路的线路 id、起点 id、终点 id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Eznupl1_KL1I8H9aw7wR-1">
+          <mxGeometry x="380" y="140" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Eznupl1_KL1I8H9aw7wR-1" source="HenfjSH_k8gea2s9kb1--2" target="HenfjSH_k8gea2s9kb1--5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-11" value="" style="group" vertex="1" connectable="0" parent="Eznupl1_KL1I8H9aw7wR-1">
+          <mxGeometry y="140" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--3" value="遍历每条方案提取首条地铁线路 id 、起点 id、终点 id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Eznupl1_KL1I8H9aw7wR-11">
+          <mxGeometry width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Eznupl1_KL1I8H9aw7wR-2" source="HenfjSH_k8gea2s9kb1--3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-3" value="该线路是否支持舒适度查询" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Eznupl1_KL1I8H9aw7wR-12">
+          <mxGeometry x="195" y="280" width="130" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-4" value="添加到查询 list" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="Eznupl1_KL1I8H9aw7wR-12">
+          <mxGeometry x="200" y="410" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Eznupl1_KL1I8H9aw7wR-12" source="Eznupl1_KL1I8H9aw7wR-3" target="Eznupl1_KL1I8H9aw7wR-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-6" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="Eznupl1_KL1I8H9aw7wR-5">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-7" value="抛弃该线路" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="Eznupl1_KL1I8H9aw7wR-12">
+          <mxGeometry y="290" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Eznupl1_KL1I8H9aw7wR-12" source="Eznupl1_KL1I8H9aw7wR-3" target="Eznupl1_KL1I8H9aw7wR-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-9" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="Eznupl1_KL1I8H9aw7wR-8">
+          <mxGeometry x="-0.2267" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HenfjSH_k8gea2s9kb1--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Eznupl1_KL1I8H9aw7wR-12" source="HenfjSH_k8gea2s9kb1--5" target="Eznupl1_KL1I8H9aw7wR-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="270" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eznupl1_KL1I8H9aw7wR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eznupl1_KL1I8H9aw7wR-4" target="Eznupl1_KL1I8H9aw7wR-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="56V60ch6lTP60x9Co9Qi" name="Page-2">
+    <mxGraphModel dx="1186" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="lyixq1YqF4zrJ6rr9x3J-0"/>
+        <mxCell id="lyixq1YqF4zrJ6rr9x3J-1" parent="lyixq1YqF4zrJ6rr9x3J-0"/>
+        <mxCell id="lyixq1YqF4zrJ6rr9x3J-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SubwayComfortInfo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SubwayID: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ StartID: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ DestID: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ ComfortLevel: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;glass=0;" vertex="1" parent="lyixq1YqF4zrJ6rr9x3J-1">
+          <mxGeometry x="260" y="290" width="150" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="lyixq1YqF4zrJ6rr9x3J-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;SubwayComfortInfoListener&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ onSubwayComfortInfoUpdate(List&amp;lt;SubwayComfortInfo&amp;gt;, int): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;glass=0;" vertex="1" parent="lyixq1YqF4zrJ6rr9x3J-1">
+          <mxGeometry x="440" y="300" width="370" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="lyixq1YqF4zrJ6rr9x3J-15" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;glass=0;" vertex="1" parent="lyixq1YqF4zrJ6rr9x3J-1">
+          <mxGeometry x="440" y="120" width="160" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="lyixq1YqF4zrJ6rr9x3J-16" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lyixq1YqF4zrJ6rr9x3J-15">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="lyixq1YqF4zrJ6rr9x3J-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="lyixq1YqF4zrJ6rr9x3J-15">
+          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="lyixq1YqF4zrJ6rr9x3J-18" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lyixq1YqF4zrJ6rr9x3J-15">
+          <mxGeometry y="60" width="160" height="26" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
