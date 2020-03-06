@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-05T14:04:14.159Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="5OLNhScoQf8K7mIgJ3Ix" version="12.8.0" type="github">
+<mxfile host="www.draw.io" modified="2020-03-06T03:09:56.242Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="2bNynO037yrTSW_RgZBj" version="12.8.0" type="github">
   <diagram id="6kZ0wstfbUclB6IqP9rn" name="Page-1">
     <mxGraphModel dx="1186" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
         <mxCell id="mux9gDT_WzU1CUeuig7T-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="720" y="310" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mux9gDT_WzU1CUeuig7T-18" value="更新对应 id 优惠券状态为当前选中" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="mux9gDT_WzU1CUeuig7T-17" parent="1">
+        <mxCell id="mux9gDT_WzU1CUeuig7T-18" value="更新对应 id 优惠券状态为当前选中。&lt;br&gt;取消之前选中优惠券将状态置为未选中" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="mux9gDT_WzU1CUeuig7T-17" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="725" y="290" as="sourcePoint" />
             <Array as="points">
