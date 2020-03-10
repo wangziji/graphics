@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-10T06:59:30.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="_Udg50_cXG8dKbgFaIfg" version="12.8.2" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-03-10T14:08:10.174Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="QmZXLgOrV3b87U8dTHzx" version="12.8.2" type="github" pages="6">
   <diagram name="算路流程" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1186" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -829,5 +829,137 @@
       
     </mxGraphModel>
     
+  </diagram>
+  <diagram id="JIfGkqLBZfFwmvYKf6ni" name="Billboard 类图">
+    <mxGraphModel dx="1395" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-0" />
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-1" parent="dGq7_Dyz0gTmH2WbXH_t-0" />
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-7" value="BillboardView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-1">
+          <mxGeometry x="300" y="170" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-8" value="- adapter: BillboardAdapter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-7">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-7">
+          <mxGeometry y="52" width="230" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-10" value="+ setAdapter(BillboardAdapter): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-7">
+          <mxGeometry y="64" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-13" value="BillboardAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-1">
+          <mxGeometry x="590" y="170" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-14" value="+ view: Weekreference&lt;BillboardView&gt;&#xa;- business: int // 对应业务、多方案页...&#xa;- module: int // 对应模块，公交、驾车、步骑 ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-13">
+          <mxGeometry y="26" width="310" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-13">
+          <mxGeometry y="80" width="310" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-16" value="+ BillboardAdapter(int business, int module): void&#xa;+ setView(BillboardView): void&#xa;# request():void&#xa;# updateView(BillboardInfo): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-13">
+          <mxGeometry y="90" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-17" value="BillboardInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-1">
+          <mxGeometry x="675" y="360" width="140" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-18" value="+ content: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-17">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-19" value="+ type: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-17">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-20" value="+ url: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-17">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-22" value="+ closable: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-17">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-21" value="+ imageUrl: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-17">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-23" value="BusBillboardAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-1">
+          <mxGeometry x="307.5" y="382" width="215" height="112" as="geometry">
+            <mxRectangle x="280" y="382" width="150" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-24" value="- billboardRequest: BillboardRequest" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-23">
+          <mxGeometry y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-23">
+          <mxGeometry y="52" width="215" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-26" value="# request(): void " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-23">
+          <mxGeometry y="60" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-30" value="# updateView(BillboardInfo): void " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-23">
+          <mxGeometry y="86" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-27" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="dGq7_Dyz0gTmH2WbXH_t-1" source="dGq7_Dyz0gTmH2WbXH_t-24" target="dGq7_Dyz0gTmH2WbXH_t-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="550" as="sourcePoint" />
+            <mxPoint x="760" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-28" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BillboardInfoListener&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ onBillboardInfoUpdate(BillboardInfo): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-1">
+          <mxGeometry x="50" y="510" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-29" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="dGq7_Dyz0gTmH2WbXH_t-1" source="dGq7_Dyz0gTmH2WbXH_t-24" target="dGq7_Dyz0gTmH2WbXH_t-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="410" as="sourcePoint" />
+            <mxPoint x="280" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-31" value="BillboardRequest" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-1">
+          <mxGeometry x="340" y="590" width="305" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-32" value="+ listener: BillboardInfoListener" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-31">
+          <mxGeometry y="26" width="305" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-31">
+          <mxGeometry y="52" width="305" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-34" value="+ sendRequest(int business, int module): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-31">
+          <mxGeometry y="60" width="305" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-35" value="+ setListener(BillboardInfoListener): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-31">
+          <mxGeometry y="86" width="305" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-36" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="dGq7_Dyz0gTmH2WbXH_t-1" target="dGq7_Dyz0gTmH2WbXH_t-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="581" y="590" as="sourcePoint" />
+            <mxPoint x="900" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="581" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-37" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dGq7_Dyz0gTmH2WbXH_t-1" source="dGq7_Dyz0gTmH2WbXH_t-23" target="dGq7_Dyz0gTmH2WbXH_t-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="500" as="sourcePoint" />
+            <mxPoint x="570" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-38" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.492;exitY=1.095;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dGq7_Dyz0gTmH2WbXH_t-1" source="dGq7_Dyz0gTmH2WbXH_t-10" target="dGq7_Dyz0gTmH2WbXH_t-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="250" as="sourcePoint" />
+            <mxPoint x="250" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-39" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;HippyBillBoard&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-1">
+          <mxGeometry x="970" y="170" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-40" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-39">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-41" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="dGq7_Dyz0gTmH2WbXH_t-1" source="dGq7_Dyz0gTmH2WbXH_t-39" target="dGq7_Dyz0gTmH2WbXH_t-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="470" as="sourcePoint" />
+            <mxPoint x="1140" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
   </diagram>
 </mxfile>
