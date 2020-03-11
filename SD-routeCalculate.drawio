@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-10T15:01:04.092Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="JJojtg_RqAHb0-TLwiG5" version="12.8.2" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2020-03-11T07:55:48.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="DlTAa2k_JEEVn_4oFl7S" version="12.8.2" type="github" pages="7">
   <diagram name="算路流程" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1186" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -958,24 +958,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dGq7_Dyz0gTmH2WbXH_t-38" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.492;exitY=1.095;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dGq7_Dyz0gTmH2WbXH_t-1" source="dGq7_Dyz0gTmH2WbXH_t-10" target="dGq7_Dyz0gTmH2WbXH_t-23">
-          <mxGeometry width="160" relative="1" as="geometry">
+          <mxGeometry x="-0.2047" width="160" relative="1" as="geometry">
             <mxPoint x="90" y="250" as="sourcePoint" />
             <mxPoint x="250" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-39" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;HippyBillBoard&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-1">
-          <mxGeometry x="970" y="170" width="180" height="60" as="geometry" />
+        <mxCell id="_zdUz1HQ-snOQ-a_qOFG-1" value="HippyBillboardView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-1">
+          <mxGeometry x="35" y="170" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-40" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dGq7_Dyz0gTmH2WbXH_t-39">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-24" y="4" as="offset" />
-          </mxGeometry>
+        <mxCell id="_zdUz1HQ-snOQ-a_qOFG-2" value="- adapter: BillboardAdapter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_zdUz1HQ-snOQ-a_qOFG-1">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="dGq7_Dyz0gTmH2WbXH_t-41" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="dGq7_Dyz0gTmH2WbXH_t-1" source="dGq7_Dyz0gTmH2WbXH_t-39" target="dGq7_Dyz0gTmH2WbXH_t-34">
-          <mxGeometry x="-0.166" width="160" relative="1" as="geometry">
-            <mxPoint x="980" y="470" as="sourcePoint" />
-            <mxPoint x="1140" y="470" as="targetPoint" />
-            <mxPoint y="1" as="offset" />
+        <mxCell id="_zdUz1HQ-snOQ-a_qOFG-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_zdUz1HQ-snOQ-a_qOFG-1">
+          <mxGeometry y="52" width="230" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="_zdUz1HQ-snOQ-a_qOFG-4" value="+ setAdapter(BillboardAdapter): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_zdUz1HQ-snOQ-a_qOFG-1">
+          <mxGeometry y="64" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_zdUz1HQ-snOQ-a_qOFG-5" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.492;exitY=1.095;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dGq7_Dyz0gTmH2WbXH_t-1" target="dGq7_Dyz0gTmH2WbXH_t-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="139.99999999999983" y="261.9999999999998" as="sourcePoint" />
+            <mxPoint x="420" y="382" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
