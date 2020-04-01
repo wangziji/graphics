@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T08:50:16.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="90sC20ovyNbnfWWQz78x" version="12.9.4" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-04-01T08:57:32.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="7baQP5vAAxWaFTU6TiIt" version="12.9.4" type="github" pages="11">
   <diagram id="86Uga7-Gd4g3QrR7SwTo" name="主框架">
     <mxGraphModel dx="3235" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1272,6 +1272,47 @@
             <mxPoint x="620" y="699.901098901099" as="sourcePoint" />
             <mxPoint x="1030" y="699" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="M4KIF2_cdWlyCHpnZrpQ" name="Page-11">
+    <mxGraphModel dx="1426" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--0" />
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--1" parent="ziAkBRfw1IPfDMnyNzF--0" />
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--3" value="NitroInterface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="220" y="130" width="710" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--4" value="VPS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="220" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--5" value="Sensor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="368" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--6" value="Recorder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="515" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--7" value="Render" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="663" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--8" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="810" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--9" value="VPS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="220" y="300" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--10" value="Bulb" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="590" y="300" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--11" value="OpenCV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="220" y="384" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--12" value="Filament" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="590" y="384" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziAkBRfw1IPfDMnyNzF--13" value="CommonLib" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
+          <mxGeometry x="220" y="480" width="710" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
