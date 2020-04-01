@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T09:31:52.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="O8DenqQWZ3edQdgExD56" version="12.9.4" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2020-04-01T10:28:46.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="TRqJ-vUQsAd8FFLcXU7o" version="12.9.4" type="github" pages="12">
   <diagram id="86Uga7-Gd4g3QrR7SwTo" name="主框架">
     <mxGraphModel dx="3235" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1246,8 +1246,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zHJg-XCb_AXaMUgWT4tc-38" value="MessageBinThrea" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zHJg-XCb_AXaMUgWT4tc-1">
-          <mxGeometry x="185" y="660" width="90" height="20" as="geometry" />
+        <mxCell id="zHJg-XCb_AXaMUgWT4tc-38" value="RecycleThread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zHJg-XCb_AXaMUgWT4tc-1">
+          <mxGeometry x="175" y="660" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zHJg-XCb_AXaMUgWT4tc-39" value="" style="endArrow=classic;html=1;strokeWidth=3;" edge="1" parent="zHJg-XCb_AXaMUgWT4tc-1" source="zHJg-XCb_AXaMUgWT4tc-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
