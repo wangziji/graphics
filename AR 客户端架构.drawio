@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T08:13:51.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="rC5WaVzPh0FJPSFupb-h" version="12.9.4" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2020-04-01T08:15:47.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="2QnYDsQ9LJbKrU1JMbYo" version="12.9.4" type="github" pages="8">
   <diagram id="86Uga7-Gd4g3QrR7SwTo" name="主框架">
     <mxGraphModel dx="3235" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -995,6 +995,30 @@
         </mxCell>
         <mxCell id="xNeO-3d8rriRWtKOrfHc-59" value="+ notifyList: std::list&lt;_THREAD&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xNeO-3d8rriRWtKOrfHc-49">
           <mxGeometry y="182" width="325" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xNeO-3d8rriRWtKOrfHc-67" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1.006;exitY=0.269;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=-0.115;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="pH4N-c182QQzBMMdshUe-1" source="pH4N-c182QQzBMMdshUe-17" target="xNeO-3d8rriRWtKOrfHc-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="560" as="sourcePoint" />
+            <mxPoint x="520" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNeO-3d8rriRWtKOrfHc-68" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.489;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="pH4N-c182QQzBMMdshUe-1" source="pH4N-c182QQzBMMdshUe-31" target="xNeO-3d8rriRWtKOrfHc-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="770" y="420" as="sourcePoint" />
+            <mxPoint x="930" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNeO-3d8rriRWtKOrfHc-69" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="pH4N-c182QQzBMMdshUe-1" source="xNeO-3d8rriRWtKOrfHc-66" target="xNeO-3d8rriRWtKOrfHc-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="910" y="420" as="sourcePoint" />
+            <mxPoint x="1070" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNeO-3d8rriRWtKOrfHc-70" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="pH4N-c182QQzBMMdshUe-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1200" y="180" as="sourcePoint" />
+            <mxPoint x="1290" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
