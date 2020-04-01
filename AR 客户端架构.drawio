@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T08:57:51.181Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="UHaS5H9XuT2_BsE5PPvd" version="12.9.4" type="github" pages="11">
+<mxfile host="www.draw.io" modified="2020-04-01T09:18:14.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="MK6m4oOYtW8cMf39ZNEF" version="12.9.4" type="github" pages="12">
   <diagram id="86Uga7-Gd4g3QrR7SwTo" name="主框架">
     <mxGraphModel dx="3235" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1276,7 +1276,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="M4KIF2_cdWlyCHpnZrpQ" name="Page-11">
+  <diagram id="M4KIF2_cdWlyCHpnZrpQ" name="nitro lib">
     <mxGraphModel dx="1426" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ziAkBRfw1IPfDMnyNzF--0" />
@@ -1313,6 +1313,47 @@
         </mxCell>
         <mxCell id="ziAkBRfw1IPfDMnyNzF--13" value="CommonLib" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="ziAkBRfw1IPfDMnyNzF--1">
           <mxGeometry x="220" y="450" width="710" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MhUWf9PI109R7R2x6lfk" name="AAR">
+    <mxGraphModel dx="1426" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-0" />
+        <mxCell id="G09xqs_1UrBlIRhSAal9-1" parent="G09xqs_1UrBlIRhSAal9-0" />
+        <mxCell id="G09xqs_1UrBlIRhSAal9-2" value="ARGLSurfaceView" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="G09xqs_1UrBlIRhSAal9-1">
+          <mxGeometry x="220" y="110" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-3" value="ARWalkManager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="G09xqs_1UrBlIRhSAal9-1">
+          <mxGeometry x="220" y="190" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="G09xqs_1UrBlIRhSAal9-1">
+          <mxGeometry x="220" y="270" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="G09xqs_1UrBlIRhSAal9-1" source="G09xqs_1UrBlIRhSAal9-5" target="G09xqs_1UrBlIRhSAal9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-5" value="JNINitroEngine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="G09xqs_1UrBlIRhSAal9-1">
+          <mxGeometry x="450" y="270" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-6" value="Camera" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;opacity=30;" vertex="1" parent="G09xqs_1UrBlIRhSAal9-1">
+          <mxGeometry x="230" y="290" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-7" value="Camera2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;opacity=30;" vertex="1" parent="G09xqs_1UrBlIRhSAal9-1">
+          <mxGeometry x="330" y="290" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-8" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Hardware&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=30;" vertex="1" parent="G09xqs_1UrBlIRhSAal9-1">
+          <mxGeometry x="240" y="270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="G09xqs_1UrBlIRhSAal9-1" source="G09xqs_1UrBlIRhSAal9-9" target="G09xqs_1UrBlIRhSAal9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-9" value="JNI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="G09xqs_1UrBlIRhSAal9-1">
+          <mxGeometry x="220" y="370" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G09xqs_1UrBlIRhSAal9-10" value="NitroInterface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="G09xqs_1UrBlIRhSAal9-1">
+          <mxGeometry x="220" y="450" width="440" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
