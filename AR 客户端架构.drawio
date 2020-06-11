@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-11T06:03:39.565Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="oKO-MKVAPWeAuEPSrYNg" version="13.2.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-06-11T06:49:21.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="uZw8lpXuQdXLxTyPOY6H" version="13.2.1" type="github" pages="14">
   <diagram id="86Uga7-Gd4g3QrR7SwTo" name="主框架">
     <mxGraphModel dx="3235" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2224,6 +2224,24 @@
         </mxCell>
         <mxCell id="-3eHOCqtGZmJ-zCKf4re-91" value="导航结束" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WH9liDMIhgtoKP-VfO7h-1">
           <mxGeometry x="-70" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-3eHOCqtGZmJ-zCKf4re-100" value="" style="group" vertex="1" connectable="0" parent="WH9liDMIhgtoKP-VfO7h-1">
+          <mxGeometry x="-240" y="60" width="101" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-3eHOCqtGZmJ-zCKf4re-98" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="-3eHOCqtGZmJ-zCKf4re-100">
+          <mxGeometry width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-3eHOCqtGZmJ-zCKf4re-99" value="Nitro SDK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="-3eHOCqtGZmJ-zCKf4re-100">
+          <mxGeometry x="31" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-3eHOCqtGZmJ-zCKf4re-102" value="" style="group" vertex="1" connectable="0" parent="WH9liDMIhgtoKP-VfO7h-1">
+          <mxGeometry x="-240" y="100" width="101" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-3eHOCqtGZmJ-zCKf4re-103" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-3eHOCqtGZmJ-zCKf4re-102">
+          <mxGeometry width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-3eHOCqtGZmJ-zCKf4re-104" value="VPS" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="-3eHOCqtGZmJ-zCKf4re-102">
+          <mxGeometry x="40" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
