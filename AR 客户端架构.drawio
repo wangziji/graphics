@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T07:24:21.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="McAz2-gtNzLHsbA70yPs" version="13.8.1" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2020-10-28T07:39:02.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="vNbIkw1-fTkzHskl1cjz" version="13.8.1" type="github" pages="18">
   <diagram id="86Uga7-Gd4g3QrR7SwTo" name="主框架">
     <mxGraphModel dx="4120" dy="2361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -220,7 +220,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="主框架V2" id="mBib25czkDaq3VKmmw4M">
-    <mxGraphModel dx="3600" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3600" dy="2091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="M2KHya_W0R4ysed5NjkE-0" />
         <mxCell id="M2KHya_W0R4ysed5NjkE-1" parent="M2KHya_W0R4ysed5NjkE-0" />
@@ -427,7 +427,7 @@
         <mxCell id="2sT9vzPCIRhLvWB2zap_-25" value="传感器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="2sT9vzPCIRhLvWB2zap_-20">
           <mxGeometry x="273.15361626941916" y="53.99966945324212" width="234.13167108807355" height="19.99987757527486" as="geometry" />
         </mxCell>
-        <mxCell id="2sT9vzPCIRhLvWB2zap_-26" value="定位" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="2sT9vzPCIRhLvWB2zap_-20">
+        <mxCell id="2sT9vzPCIRhLvWB2zap_-26" value="原始GPS" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="2sT9vzPCIRhLvWB2zap_-20">
           <mxGeometry x="526.7962599481655" y="53.99966945324212" width="234.13167108807355" height="19.99987757527486" as="geometry" />
         </mxCell>
         <mxCell id="2sT9vzPCIRhLvWB2zap_-28" value="AR SDK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2sT9vzPCIRhLvWB2zap_-29">
@@ -439,10 +439,10 @@
         <mxCell id="2sT9vzPCIRhLvWB2zap_-33" value="检索" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="M2KHya_W0R4ysed5NjkE-1">
           <mxGeometry x="340" y="-210" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2sT9vzPCIRhLvWB2zap_-34" value="算路" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="M2KHya_W0R4ysed5NjkE-1">
+        <mxCell id="2sT9vzPCIRhLvWB2zap_-34" value="多方案页" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="M2KHya_W0R4ysed5NjkE-1">
           <mxGeometry x="570" y="-210" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2sT9vzPCIRhLvWB2zap_-35" value="诱导" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="M2KHya_W0R4ysed5NjkE-1">
+        <mxCell id="2sT9vzPCIRhLvWB2zap_-35" value="步行导航" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="M2KHya_W0R4ysed5NjkE-1">
           <mxGeometry x="800" y="-210" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2sT9vzPCIRhLvWB2zap_-36" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;strokeColor=#000000;fillColor=#DAE8FC;rotation=90;" vertex="1" parent="M2KHya_W0R4ysed5NjkE-1">
