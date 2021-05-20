@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T07:29:21.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="JO9VSBFHMRmrbOxxXBu4" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-20T11:23:19.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="1CFoEstFgZRHXtf070En" version="14.6.13" type="github" pages="2">
   <diagram id="83-qcjnb8JGmeSmuc8b6" name="主框架">
     <mxGraphModel dx="1186" dy="1908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,7 +206,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gKhb_r-Ocoxwo7qjok-Z" name="弱网状态图">
-    <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="565" dy="325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fOyQ15nQtEurxdmu73fn-0" />
         <mxCell id="fOyQ15nQtEurxdmu73fn-1" parent="fOyQ15nQtEurxdmu73fn-0" />
@@ -268,11 +268,12 @@
         <mxCell id="nJkjH7DKXuTanQgG_0F--3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontFamily=TTTGB;fontSize=14;" parent="nJkjH7DKXuTanQgG_0F--13" vertex="1">
           <mxGeometry x="25" y="50" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nJkjH7DKXuTanQgG_0F--4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=TTTGB;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="nJkjH7DKXuTanQgG_0F--13" source="nJkjH7DKXuTanQgG_0F--3" target="nJkjH7DKXuTanQgG_0F--6" edge="1">
+        <mxCell id="nJkjH7DKXuTanQgG_0F--4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=TTTGB;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="nJkjH7DKXuTanQgG_0F--13" source="nJkjH7DKXuTanQgG_0F--3" target="nJkjH7DKXuTanQgG_0F--5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="140" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="40" y="200" />
+              <mxPoint x="70" y="65" />
+              <mxPoint x="70" y="65" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -297,7 +298,7 @@
             <mxPoint x="168" y="95" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJkjH7DKXuTanQgG_0F--12" value="上次发起网络请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=TTTGB;fontSize=14;" parent="nJkjH7DKXuTanQgG_0F--13" vertex="1">
+        <mxCell id="nJkjH7DKXuTanQgG_0F--12" value="上层发起网络请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=TTTGB;fontSize=14;" parent="nJkjH7DKXuTanQgG_0F--13" vertex="1">
           <mxGeometry x="175" y="115" width="80" height="45" as="geometry" />
         </mxCell>
         <mxCell id="nJkjH7DKXuTanQgG_0F--15" value="是否2G网络" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontFamily=TTTGB;fontSize=14;" parent="fOyQ15nQtEurxdmu73fn-1" vertex="1">
