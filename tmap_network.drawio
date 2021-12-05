@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-05T06:41:35.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Jk6eq-2b-N1EDdP4wkb4" version="15.9.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-05T06:42:57.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="hEEPVpzBv8u8zV3-RSTa" version="15.9.1" type="github" pages="2">
   <diagram id="83-qcjnb8JGmeSmuc8b6" name="主框架">
     <mxGraphModel dx="1186" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="VZI2p-cYhnuxlReJ1ar1-20" value="长链接" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=腾讯体;" parent="VZI2p-cYhnuxlReJ1ar1-21" vertex="1">
           <mxGeometry x="10" y="10" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VZI2p-cYhnuxlReJ1ar1-22" value="&lt;span style=&quot;font-size: 23px&quot;&gt;短链接&lt;br&gt;（哈雷）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=腾讯体;" parent="1" vertex="1">
+        <mxCell id="VZI2p-cYhnuxlReJ1ar1-22" value="&lt;span style=&quot;font-size: 23px&quot;&gt;短链接&lt;br&gt;（OkHttp）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=腾讯体;" parent="1" vertex="1">
           <mxGeometry x="90" y="290" width="120" height="460" as="geometry" />
         </mxCell>
         <mxCell id="VZI2p-cYhnuxlReJ1ar1-23" value="&lt;span style=&quot;font-size: 23px&quot;&gt;QUIC&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=腾讯体;" parent="1" vertex="1">
