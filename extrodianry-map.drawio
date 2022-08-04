@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T07:27:54.602Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="S5Ih_IEBmjEiR9NXlZDC" version="20.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-04T02:54:38.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3GsiIIcYfDS3sa17_FhU" version="20.2.2" type="github" pages="3">
   <diagram id="FGJa4D7qLDVqS8jDIZfD" name="Page-1">
-    <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,7 +138,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_5VDusWGjKHEPmyxzlMl" name="类图">
-    <mxGraphModel dx="4026" dy="1478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3720" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,9 +177,6 @@
             <mxPoint x="480" y="420" as="sourcePoint" />
             <mxPoint x="640" y="420" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="IXjAIpFJo1DjZ2CuXjz5-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontFamily=腾讯体;" parent="1" source="IXjAIpFJo1DjZ2CuXjz5-16" target="IXjAIpFJo1DjZ2CuXjz5-37" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IXjAIpFJo1DjZ2CuXjz5-16" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;BaseCanvas&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;# param: CanvasParam&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;# canvasHandle: long&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;# overlayHandle: long&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ BaseCanvas(pos: enum, overlay: long)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;# onTab(x: int, y: int): bool&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ create(): long&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=腾讯体;html=1;" parent="1" vertex="1">
           <mxGeometry x="-633" y="310" width="440" height="150" as="geometry" />
@@ -247,10 +244,10 @@
         <mxCell id="IXjAIpFJo1DjZ2CuXjz5-37" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;ViewCanvas&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;- viewMap: Map&amp;lt;int, EXView&amp;gt;&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;- clickList: List&amp;lt;EXView&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;- mutableList: List&amp;lt;EXView&amp;gt;&amp;nbsp;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ ViewCanvas(pos: enum, overlay: long, root: View, layoutId: enum)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;- onTab(x: int, y: int): bool&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;- viewAnalysis(root: View): List&amp;lt;ViewInfo&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ create(param): long&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ findViewById(id: int): EXView&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ invalid();&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ onTextureReady(ids: List&amp;lt;int&amp;gt;, textureIds: List&amp;lt;int&amp;gt;)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=腾讯体;html=1;" parent="1" vertex="1">
           <mxGeometry x="-633" y="770" width="440" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="IXjAIpFJo1DjZ2CuXjz5-38" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;fontFamily=腾讯体;" parent="1" source="IXjAIpFJo1DjZ2CuXjz5-37" target="IXjAIpFJo1DjZ2CuXjz5-16" edge="1">
+        <mxCell id="IXjAIpFJo1DjZ2CuXjz5-38" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;fontFamily=腾讯体;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="IXjAIpFJo1DjZ2CuXjz5-37" target="IXjAIpFJo1DjZ2CuXjz5-16" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-480" y="680" as="sourcePoint" />
-            <mxPoint x="-320" y="680" as="targetPoint" />
+            <mxPoint x="-290" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IXjAIpFJo1DjZ2CuXjz5-40" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;CustomViewOverlay&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ clickListener: OnClickListener&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ CustomViewOverlay(param: OverlayParam, mainInflator : Inflator, left, right, top, bottom: Inflator?)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;+ findViewById(pos: enum, id: int): EXView&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;+ invalid(pos: enum)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;+ setOnClickListener(listener: OnClickListener)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=腾讯体;html=1;" parent="1" vertex="1">
@@ -465,7 +462,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gx6u9wMVINeyh84m6iT_" name="架构">
-    <mxGraphModel dx="2310" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
