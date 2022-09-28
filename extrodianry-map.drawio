@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T09:04:04.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="drTCKu1jfRphwVfDKmaP" version="20.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-28T07:54:40.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="rwAcDV6XY0zohB9zz4xP" version="20.2.3" type="github" pages="4">
   <diagram id="FGJa4D7qLDVqS8jDIZfD" name="Page-1">
     <mxGraphModel dx="2066" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -584,7 +584,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2Ly_A8lNde0xjH7hNebD" name="第 4 页">
-    <mxGraphModel dx="2066" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -618,14 +618,17 @@
         <mxCell id="Hv0v0pFZea7j7yNAyBmQ-7" value="UGC数据平台（文档）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Hv0v0pFZea7j7yNAyBmQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hv0v0pFZea7j7yNAyBmQ-8" target="Hv0v0pFZea7j7yNAyBmQ-1">
+        <mxCell id="Hv0v0pFZea7j7yNAyBmQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hv0v0pFZea7j7yNAyBmQ-8" target="Hv0v0pFZea7j7yNAyBmQ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hv0v0pFZea7j7yNAyBmQ-8" value="数据清洗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="960" y="387.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Hv0v0pFZea7j7yNAyBmQ-10" value="临时数据存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="700" width="120" height="60" as="geometry" />
+        <mxCell id="Hv0v0pFZea7j7yNAyBmQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hv0v0pFZea7j7yNAyBmQ-11" target="Hv0v0pFZea7j7yNAyBmQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv0v0pFZea7j7yNAyBmQ-11" value="&lt;b&gt;临时存储&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="965" y="602.5" width="110" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
