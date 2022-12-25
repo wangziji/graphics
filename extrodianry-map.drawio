@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-25T09:03:05.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="8tFn7QfNFxvgwcSPHHND" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-12-25T09:24:52.632Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="NnvMJAP7N_RqWBlgpBRj" version="20.5.3" type="github" pages="7">
   <diagram id="FGJa4D7qLDVqS8jDIZfD" name="Page-1">
     <mxGraphModel dx="1830" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1332,6 +1332,74 @@
         </mxCell>
         <mxCell id="iU--lk5-rZMByHVlfRan-3" value="Display" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="490" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="t3BVT-aAG8h7hmOsdWWQ" name="第 7 页">
+    <mxGraphModel dx="1830" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Activity&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="260" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PhoneWindow&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="220" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="lFTJDRJobQGBO-Le5TUT-5" target="lFTJDRJobQGBO-Le5TUT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-5" value="mDecor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="95" y="380" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="lFTJDRJobQGBO-Le5TUT-6" target="lFTJDRJobQGBO-Le5TUT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-6" value="mWindowManager" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="95" y="500" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DecorView Extends FrameLayout&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DecorCaptionView&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="300" width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-9" value="mContentRoot" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="340" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;WindowManagerImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="lFTJDRJobQGBO-Le5TUT-11" target="lFTJDRJobQGBO-Le5TUT-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-11" value="mGlobal" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="530" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;WindowManagerGlobal&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="480" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="lFTJDRJobQGBO-Le5TUT-13" target="lFTJDRJobQGBO-Le5TUT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-13" value="mRoot" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="760" y="530" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ViewRootImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="260" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="lFTJDRJobQGBO-Le5TUT-18" target="lFTJDRJobQGBO-Le5TUT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-18" value="mView" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="760" y="300" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-20" value="mSurface" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="760" y="340" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lFTJDRJobQGBO-Le5TUT-21" value="Choreographer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="760" y="380" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
