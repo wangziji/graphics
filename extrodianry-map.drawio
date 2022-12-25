@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-25T14:57:22.154Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gv5pSKssF_4KnRUZbp0S" version="20.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-12-25T15:05:17.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="G8ScaH5R-MjiMhFXqdJ4" version="20.5.3" type="github" pages="8">
   <diagram id="FGJa4D7qLDVqS8jDIZfD" name="Page-1">
     <mxGraphModel dx="1830" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1409,11 +1409,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NNAvTKaLwkAZvd91mjww-1" value="CustomOverlay&lt;br&gt;(Java)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=腾讯体;fontSize=18;strokeWidth=3;size=70;" vertex="1" parent="1">
+        <mxCell id="NNAvTKaLwkAZvd91mjww-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CustomViewOverlay&lt;br&gt;(Java)&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=腾讯体;fontSize=18;strokeWidth=3;size=70;" vertex="1" parent="1">
           <mxGeometry x="50" y="100" width="160" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="NNAvTKaLwkAZvd91mjww-2" value="CustomOverlay&lt;br&gt;(Java)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=腾讯体;fontSize=18;strokeWidth=3;size=70;" vertex="1" parent="1">
+        <mxCell id="NNAvTKaLwkAZvd91mjww-2" value="View&lt;br&gt;(Java)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=腾讯体;fontSize=18;strokeWidth=3;size=70;" vertex="1" parent="1">
           <mxGeometry x="260" y="100" width="160" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="NNAvTKaLwkAZvd91mjww-3" value="Surface&lt;br&gt;(Java)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=腾讯体;fontSize=18;strokeWidth=3;size=70;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="160" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="NNAvTKaLwkAZvd91mjww-4" value="SurfaceTexture&lt;br&gt;(Java)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=腾讯体;fontSize=18;strokeWidth=3;size=70;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="160" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="NNAvTKaLwkAZvd91mjww-5" value="BaseOverlay&lt;br&gt;(C++)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=腾讯体;fontSize=18;strokeWidth=3;size=70;" vertex="1" parent="1">
+          <mxGeometry x="890" y="100" width="160" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="NNAvTKaLwkAZvd91mjww-6" value="CustomOverlay&lt;br&gt;(C++)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=腾讯体;fontSize=18;strokeWidth=3;size=70;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="100" width="160" height="740" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
