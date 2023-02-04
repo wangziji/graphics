@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-04T12:59:53.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="kjB5ow87ManVlfbGbHjs" version="20.8.16" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-02-04T13:10:23.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="h8j317gd7XVYLONEX5q7" version="20.8.16" type="github" pages="20">
   <diagram id="86Uga7-Gd4g3QrR7SwTo" name="主框架">
     <mxGraphModel dx="3007" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -220,7 +220,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="主框架V2" id="mBib25czkDaq3VKmmw4M">
-    <mxGraphModel dx="4176" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4009" dy="1871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="M2KHya_W0R4ysed5NjkE-0" />
         <mxCell id="M2KHya_W0R4ysed5NjkE-1" parent="M2KHya_W0R4ysed5NjkE-0" />
@@ -264,7 +264,7 @@
           <mxGeometry x="-180" y="490" width="190" height="250" as="geometry" />
         </mxCell>
         <mxCell id="M2KHya_W0R4ysed5NjkE-26" value="地图制作平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=腾讯体;fontStyle=1;fontSize=18;" parent="M2KHya_W0R4ysed5NjkE-1" vertex="1">
-          <mxGeometry x="-145" y="510" width="80" height="20" as="geometry" />
+          <mxGeometry x="-145" y="510" width="125" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M2KHya_W0R4ysed5NjkE-27" value="HMI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=腾讯体;fontStyle=1;fontSize=18;" parent="M2KHya_W0R4ysed5NjkE-1" vertex="1">
           <mxGeometry x="-145" y="540" width="120" height="60" as="geometry" />
@@ -460,8 +460,8 @@
         <mxCell id="M2KHya_W0R4ysed5NjkE-4" value="算路、诱导" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=腾讯体;fontStyle=1;fontSize=18;" parent="M2KHya_W0R4ysed5NjkE-1" vertex="1">
           <mxGeometry x="260" y="340" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="M2KHya_W0R4ysed5NjkE-5" value="引擎层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=腾讯体;fontStyle=1;fontSize=18;" parent="M2KHya_W0R4ysed5NjkE-1" vertex="1">
-          <mxGeometry x="100" y="310" width="50" height="20" as="geometry" />
+        <mxCell id="M2KHya_W0R4ysed5NjkE-5" value="引擎层" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=腾讯体;fontStyle=1;fontSize=18;" parent="M2KHya_W0R4ysed5NjkE-1" vertex="1">
+          <mxGeometry x="85" y="310" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s5OaQ5KowXL37c3KBw__-8" value="" style="group;fillColor=#ffffff;strokeColor=#000000;fontFamily=腾讯体;fontStyle=1;fontSize=18;" parent="M2KHya_W0R4ysed5NjkE-1" vertex="1" connectable="0">
           <mxGeometry x="445" y="340" width="545" height="70" as="geometry" />
