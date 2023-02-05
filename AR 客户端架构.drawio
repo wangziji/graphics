@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T03:33:27.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="uesHzdbE879QlfVeEy0o" version="20.8.16" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-02-05T03:39:00.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jkx8d2XI4MZNtiPL3P7Y" version="20.8.16" type="github" pages="21">
   <diagram id="86Uga7-Gd4g3QrR7SwTo" name="主框架">
     <mxGraphModel dx="3691" dy="2071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2989,7 +2989,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SeKCwwRzOhOowoUY7xp3" name="第 21 页">
-    <mxGraphModel dx="810" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="810" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3021,6 +3021,22 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="580" as="sourcePoint" />
             <mxPoint x="410" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m78Ga8RN78Pk3LGIKAgU-12" value="用户手机的GPS定位点" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontFamily=腾讯体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="290" y="565" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m78Ga8RN78Pk3LGIKAgU-13" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;strokeColor=#1A1A1A;strokeWidth=2;fontFamily=腾讯体;fontSize=20;" edge="1" target="m78Ga8RN78Pk3LGIKAgU-12" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m78Ga8RN78Pk3LGIKAgU-15" value="采集设备的GPS定位点" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontFamily=腾讯体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m78Ga8RN78Pk3LGIKAgU-16" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;strokeColor=#1A1A1A;strokeWidth=2;fontFamily=腾讯体;fontSize=20;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" target="m78Ga8RN78Pk3LGIKAgU-15" parent="1" source="m78Ga8RN78Pk3LGIKAgU-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="307" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
