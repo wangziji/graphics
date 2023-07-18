@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T09:15:02.360Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CTb6onLB6gT8EFfx8lwY" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-18T12:03:55.883Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NfIxcUc4Y0jaq5jCAeTp" version="21.3.7" type="github" pages="2">
   <diagram name="第 1 页" id="1FPvL_inqG1fgnCIBrYx">
-    <mxGraphModel dx="2074" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,6 +78,91 @@
         </mxCell>
         <mxCell id="-aIPj-AFwl_o3mr0RVOG-17" value="热力数据" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="93" y="700" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XOix5SEuW7etaFIp7UPN" name="第 2 页">
+    <mxGraphModel dx="2074" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="96Zqske4oeFXphJJ4yYA-1" value="底图" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-2" value="百变后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-3" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="620" y="150" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-4" value="定时轮询" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="830" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="385" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-6" value="拉取瓦片数据" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="96Zqske4oeFXphJJ4yYA-5" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-7" value="返回热度信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="96Zqske4oeFXphJJ4yYA-5" parent="1">
+          <mxGeometry x="0.0036" relative="1" as="geometry">
+            <mxPoint x="110" y="355" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="105" y="405" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-9" value="判断是否支持打卡" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="96Zqske4oeFXphJJ4yYA-8" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="385" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="140" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="665" y="480" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-11" value="poiid&amp;amp;热力值" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="96Zqske4oeFXphJJ4yYA-10" parent="1">
+          <mxGeometry x="-0.2456" y="5" relative="1" as="geometry">
+            <mxPoint x="110" y="470" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-12" value="return bitmap" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="96Zqske4oeFXphJJ4yYA-10" parent="1">
+          <mxGeometry x="-0.2973" relative="1" as="geometry">
+            <mxPoint x="110" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="560" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="670" y="510" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-14" value="生成热力值bitmap" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="96Zqske4oeFXphJJ4yYA-13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="705" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="105" y="630" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="96Zqske4oeFXphJJ4yYA-19" value="整合poi icon&amp;amp;名称&amp;amp;热力值，渲染上屏" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="96Zqske4oeFXphJJ4yYA-18" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="610" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="140" y="640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
