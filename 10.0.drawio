@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T07:40:50.662Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fQ6QofWsA0w143S_qDu3" version="21.6.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-19T08:23:32.643Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8opKrJvC1gIvd1-bxfyO" version="21.6.2" type="github" pages="3">
   <diagram name="第 1 页" id="1FPvL_inqG1fgnCIBrYx">
     <mxGraphModel dx="2074" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-z520jDXz5fW7v8_Wy8f" name="第 3 页">
-    <mxGraphModel dx="1803" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1803" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -220,7 +220,7 @@
         <mxCell id="xmO-rxdzvQBIMXoJaV3v-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="c3sxRMjoxWKIxEB6ZuZN-2">
           <mxGeometry x="45" y="530" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xmO-rxdzvQBIMXoJaV3v-5" value="提升建筑marker的优先级" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="c3sxRMjoxWKIxEB6ZuZN-2" target="xmO-rxdzvQBIMXoJaV3v-4">
+        <mxCell id="xmO-rxdzvQBIMXoJaV3v-5" value="&lt;font color=&quot;#ff3333&quot;&gt;提升建筑marker的优先级&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="c3sxRMjoxWKIxEB6ZuZN-2" target="xmO-rxdzvQBIMXoJaV3v-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="510" as="sourcePoint" />
             <Array as="points">
@@ -253,7 +253,7 @@
             <mxPoint x="140" y="481" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c3sxRMjoxWKIxEB6ZuZN-7" value="当前poiid下的总热力值&lt;br&gt;以及poi对应的评价标签" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="c3sxRMjoxWKIxEB6ZuZN-5" edge="1">
+        <mxCell id="c3sxRMjoxWKIxEB6ZuZN-7" value="当前poiid下的总热力值&lt;br&gt;以及poi对应的&lt;font color=&quot;#ff3333&quot;&gt;评价标签&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="c3sxRMjoxWKIxEB6ZuZN-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="556" as="targetPoint" />
           </mxGeometry>
@@ -307,7 +307,7 @@
             <mxPoint x="140" y="300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xmO-rxdzvQBIMXoJaV3v-3" value="返回双击屏幕坐标，&lt;br&gt;建筑marker坐标和offset" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.489;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="xmO-rxdzvQBIMXoJaV3v-1" parent="1" target="c3sxRMjoxWKIxEB6ZuZN-1">
+        <mxCell id="xmO-rxdzvQBIMXoJaV3v-3" value="&lt;font color=&quot;#ff3333&quot;&gt;返回双击屏幕坐标，&lt;br&gt;建筑marker坐标和offset&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.489;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="xmO-rxdzvQBIMXoJaV3v-1" parent="1" target="c3sxRMjoxWKIxEB6ZuZN-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="375" as="targetPoint" />
             <Array as="points">
