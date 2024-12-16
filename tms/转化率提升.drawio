@@ -20,7 +20,7 @@
           <mxGeometry x="40" y="130" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-XVkC3dEDmF10gojKpt2-8" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="348" y="50" width="60" height="70" as="geometry" />
+          <mxGeometry x="290" y="150" width="60" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-XVkC3dEDmF10gojKpt2-6" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.apsara_file_storage_for_hdfs;" vertex="1" parent="-XVkC3dEDmF10gojKpt2-8">
           <mxGeometry x="12" width="48" height="47.400000000000006" as="geometry" />
@@ -28,8 +28,20 @@
         <mxCell id="-XVkC3dEDmF10gojKpt2-7" value="HDFS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-XVkC3dEDmF10gojKpt2-8">
           <mxGeometry y="40" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-XVkC3dEDmF10gojKpt2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-XVkC3dEDmF10gojKpt2-9" target="-XVkC3dEDmF10gojKpt2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-XVkC3dEDmF10gojKpt2-9" value="Venus: ETL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-XVkC3dEDmF10gojKpt2-12" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#6c8ebf;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#dae8fc;shape=mxgraph.mscae.enterprise.shared_folder" vertex="1" parent="1">
+          <mxGeometry x="430" y="10" width="43" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-XVkC3dEDmF10gojKpt2-13" value="CFS/CephFS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="406.5" y="58" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-XVkC3dEDmF10gojKpt2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.396;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-XVkC3dEDmF10gojKpt2-12" target="-XVkC3dEDmF10gojKpt2-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
