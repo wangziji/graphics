@@ -13,6 +13,24 @@
         <mxCell id="-XVkC3dEDmF10gojKpt2-3" value="..." style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="370" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-XVkC3dEDmF10gojKpt2-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-XVkC3dEDmF10gojKpt2-5" value="业务数据：TDSQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-XVkC3dEDmF10gojKpt2-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="348" y="50" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-XVkC3dEDmF10gojKpt2-6" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.apsara_file_storage_for_hdfs;" vertex="1" parent="-XVkC3dEDmF10gojKpt2-8">
+          <mxGeometry x="12" width="48" height="47.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="-XVkC3dEDmF10gojKpt2-7" value="HDFS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-XVkC3dEDmF10gojKpt2-8">
+          <mxGeometry y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-XVkC3dEDmF10gojKpt2-9" value="Venus: ETL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
