@@ -57,7 +57,7 @@
         <mxCell id="X4z7BiE-yW4PL0MvgSgU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X4z7BiE-yW4PL0MvgSgU-8" target="X4z7BiE-yW4PL0MvgSgU-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X4z7BiE-yW4PL0MvgSgU-8" value="&lt;span style=&quot;background-color: initial;&quot;&gt;用户频次Hive&lt;/span&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X4z7BiE-yW4PL0MvgSgU-8" value="&lt;span style=&quot;background-color: initial;&quot;&gt;用户样本Hive&lt;/span&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="310" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X4z7BiE-yW4PL0MvgSgU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X4z7BiE-yW4PL0MvgSgU-9" target="X4z7BiE-yW4PL0MvgSgU-8">
@@ -69,7 +69,7 @@
         <mxCell id="X4z7BiE-yW4PL0MvgSgU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X4z7BiE-yW4PL0MvgSgU-12" target="X4z7BiE-yW4PL0MvgSgU-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X4z7BiE-yW4PL0MvgSgU-12" value="用户分层抽样" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X4z7BiE-yW4PL0MvgSgU-12" value="样本用的的历史订单捞取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X4z7BiE-yW4PL0MvgSgU-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.85;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X4z7BiE-yW4PL0MvgSgU-15" target="X4z7BiE-yW4PL0MvgSgU-21">
