@@ -488,8 +488,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="rFM3nLPmtXEfWjpIDNo-" name="预召回">
-    <mxGraphModel dx="1430" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="rFM3nLPmtXEfWjpIDNo-" name="第 3 页">
+    <mxGraphModel dx="2183" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -542,13 +542,12 @@
         <mxCell id="3RpnM7NEgqUcoQyqLdgv-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3RpnM7NEgqUcoQyqLdgv-5">
           <mxGeometry x="45" y="481" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3RpnM7NEgqUcoQyqLdgv-21" value="预召回" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="3RpnM7NEgqUcoQyqLdgv-20" parent="3RpnM7NEgqUcoQyqLdgv-5">
-          <mxGeometry x="0.0061" relative="1" as="geometry">
+        <mxCell id="3RpnM7NEgqUcoQyqLdgv-21" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="3RpnM7NEgqUcoQyqLdgv-20" parent="3RpnM7NEgqUcoQyqLdgv-5">
+          <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="461" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="80" y="491" />
             </Array>
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3RpnM7NEgqUcoQyqLdgv-6" value="登录" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
