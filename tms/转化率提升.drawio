@@ -949,7 +949,7 @@
             <mxRectangle width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g5Vo8rYmXK9yXR63ThwW-28" value="元数据" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#d6b656;fontSize=16;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="g5Vo8rYmXK9yXR63ThwW-28" value="统计数据" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#d6b656;fontSize=16;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="222.5" y="400" width="608" height="190" as="geometry" />
         </mxCell>
         <mxCell id="g5Vo8rYmXK9yXR63ThwW-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="g5Vo8rYmXK9yXR63ThwW-28">
