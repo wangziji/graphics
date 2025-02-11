@@ -808,8 +808,8 @@
         <mxCell id="RFLVK0c09jwLiQta8cL1-11" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=20;" vertex="1" parent="1">
           <mxGeometry x="830" y="404" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RFLVK0c09jwLiQta8cL1-12" value="Hive表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="825" y="469" width="60" height="30" as="geometry" />
+        <mxCell id="RFLVK0c09jwLiQta8cL1-12" value="&lt;div&gt;训练数据集&lt;/div&gt;Hive表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="812.5" y="469" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RFLVK0c09jwLiQta8cL1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.058;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RFLVK0c09jwLiQta8cL1-9" target="RFLVK0c09jwLiQta8cL1-11">
           <mxGeometry relative="1" as="geometry" />
