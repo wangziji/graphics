@@ -2079,12 +2079,6 @@
         <mxCell id="s9VzY00FBMq6JazFOMYL-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="s9VzY00FBMq6JazFOMYL-8">
           <mxGeometry x="45" y="130" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="s9VzY00FBMq6JazFOMYL-14" value="创建分表任务（0~127）" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="s9VzY00FBMq6JazFOMYL-8" target="s9VzY00FBMq6JazFOMYL-9">
-          <mxGeometry x="0.0018" relative="1" as="geometry">
-            <mxPoint x="-141.00000000000023" y="135" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NKmcEm4XufPHgYU9Ltha-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="s9VzY00FBMq6JazFOMYL-8">
           <mxGeometry x="45" y="350" width="10" height="80" as="geometry" />
         </mxCell>
@@ -2131,6 +2125,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="615" y="500" as="sourcePoint" />
             <mxPoint x="425" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9VzY00FBMq6JazFOMYL-14" value="创建分表任务（0~127）" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="s9VzY00FBMq6JazFOMYL-9" source="s9VzY00FBMq6JazFOMYL-3">
+          <mxGeometry x="0.0018" relative="1" as="geometry">
+            <mxPoint x="430" y="215" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
