@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.2" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.3" pages="13">
   <diagram name="第 1 页" id="ljqJnMd4tAoq8gkYt9_l">
     <mxGraphModel dx="1383" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1807,12 +1807,13 @@
         <mxCell id="gk-eJawOpdGpcMl8PYsb-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="gk-eJawOpdGpcMl8PYsb-2" vertex="1">
           <mxGeometry x="50" y="199" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gk-eJawOpdGpcMl8PYsb-5" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;taxi_user_id-&amp;gt;出行user_id&lt;/font&gt;&lt;/b&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="gk-eJawOpdGpcMl8PYsb-2" target="gk-eJawOpdGpcMl8PYsb-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="gk-eJawOpdGpcMl8PYsb-5" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;taxi_user_id-&amp;gt;出行user_id&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="gk-eJawOpdGpcMl8PYsb-2" target="gk-eJawOpdGpcMl8PYsb-4" edge="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="55" y="179" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="85" y="209" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gk-eJawOpdGpcMl8PYsb-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="gk-eJawOpdGpcMl8PYsb-2" vertex="1">
